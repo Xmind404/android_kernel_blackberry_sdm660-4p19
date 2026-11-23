@@ -59,7 +59,7 @@
  * device while userspace is processing a fingerprint event. The pattern
  * matches the goodixfp3206 sister driver and the Xiaomi pix106/whyred
  * goodix gf_spi.c references. */
-#define GF_WAKELOCK_HOLD_TIME 500 /* ms */
+#define GF_WAKELOCK_HOLD_TIME 2000 /* ms */
 static struct wakeup_source *fp_wakelock;
 
 #include "gf_spi.h"
